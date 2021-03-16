@@ -1,6 +1,9 @@
 #ifndef DEBUG_H
 #define DEBUG_H
 
+#include <osapi.h>
+
+
 #if defined(GLOBAL_DEBUG_ON)
 
 #define ANSI_BLACK     "\033[30m"
