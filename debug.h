@@ -54,6 +54,7 @@
 #endif
 
 
+#define MEMDUMP() system_show_malloc(); 
 #define MEMCHECK() \
     DEBUG(ANSI_BLUE"Free Memory: %u"ANSI_CLEAR, system_get_free_heap_size());
 
